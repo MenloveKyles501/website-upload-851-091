@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<title>搜索 - 日韩精选影片-高分电影排行榜-热门内容持续更新</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="全站影片搜索。">
+<meta name="keywords" content="日韩精选影片,日韩影片,高分榜单,精选内容,热门内容,持续更新">
+<meta name="author" content="日韩精选">
+<meta name="theme-color" content="#0b0b10">
+<meta property="og:type" content="website">
+<meta property="og:title" content="搜索 - 日韩精选影片-高分电影排行榜-热门内容持续更新">
+<meta property="og:description" content="全站影片搜索。">
+<meta property="og:site_name" content="日韩精选">
+<link rel="stylesheet" href="./assets/style.css">
+<script defer src="./assets/site.js"></script>
+
+
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="./index.html" aria-label="home">
+      <span class="brand-mark">日</span>
+      <span class="brand-text">
+        <strong>日韩精选</strong>
+        <small>高分 / 热门 / 持续更新</small>
+      </span>
+    </a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">菜单</button>
+    <nav id="site-nav" class="site-nav">
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类</a>
+      <a href="./ranking.html">排行榜</a>
+      <a href="./search.html">搜索</a>
+      <a href="./page/page-0001.html">列表</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container page-main" data-search-page>
+  <h1 class="page-h1">全站搜索</h1>
+  <p class="page-desc">输入关键词即可在 2000 部影片中检索标题、题材、标签、年份和地区。</p>
+  <section class="panel page-panel">
+    <div class="search-box">
+      <input class="filter-input large" data-global-search type="search" placeholder="例如：悬疑 / 2024 / 港片 / 爱情">
+      <button class="btn btn-primary" data-search-submit>搜索</button>
+    </div>
+    <div class="search-hint">默认按标题和题材匹配，结果会实时刷新。</div>
+    <div class="movie-grid" data-search-results></div>
+  </section>
+</main>
+<script src="./assets/catalog.js"></script>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="footer-brand">日韩精选</div>
+      <p>日韩精选影片页面聚合口碑与热度兼具的内容，包含榜单、精选片单和持续更新栏目。</p>
+    </div>
+    <div>
+      <h3>导航</h3>
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类</a>
+      <a href="./ranking.html">排行榜</a>
+      <a href="./search.html">搜索</a>
+    </div>
+    <div>
+      <h3>数据</h3>
+      <p>共收录 2000 部影片，全部为静态 HTML 详情页并附带可访问内链。</p>
+      <p>页面结构包含标题、简介、分类、排行榜、相关推荐与播放区域。</p>
+    </div>
+  </div>
+  <div class="container footer-copy">© 日韩精选 · 静态站生成版</div>
+</footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

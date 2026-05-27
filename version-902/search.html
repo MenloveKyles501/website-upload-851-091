@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="输入片名、地区、类型或标签即可快速检索影片。">
+  <meta name="keywords" content="日韩高清视频,日韩视频,视频片库,高清播放,热门视频,精选内容">
+  <meta name="theme-color" content="#0f172a">
+  <title>搜索 - 日韩高清视频-最新热门视频片库-高清视频在线播放</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body class="page-search">
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="./index.html" aria-label="日韩高清视频 首页">
+      <span class="brand-mark">HD</span>
+      <span class="brand-text">日韩高清视频</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="切换导航" data-nav-toggle>
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" data-nav>
+      <a class="" href="./index.html">首页</a>
+      <a class="" href="./categories.html">分类总览</a>
+      <a class="" href="./rank.html">排行榜</a>
+      <a class="active" href="./search.html">搜索</a>
+    </nav>
+    <form class="site-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索片名 / 标签 / 地区" aria-label="搜索片名">
+      <button type="submit">搜索</button>
+    </form>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <div class="search-topbar panel">
+        <div>
+          <h1 style="margin:0;font-size:clamp(28px,4vw,48px);">站内搜索</h1>
+          <p class="search-stats" data-search-stats>正在加载搜索数据…</p>
+        </div>
+        <form action="./search.html" method="get">
+          <input type="search" name="q" data-search-input placeholder="搜索片名、标签、地区、类型">
+          <button type="submit">搜索</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="grid cards" data-search-results></div>
+    </div>
+  </section>
+</main>
+<script src="./assets/movies-index.js"></script>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="footer-logo">日韩高清视频</div>
+      <p>日韩高清视频栏目聚合日韩视频内容，覆盖最新热门分类、精选片库和高清播放页面。</p>
+    </div>
+    <div>
+      <h3>快捷入口</h3>
+      <a href="./categories.html">分类总览</a>
+      <a href="./rank.html">排行榜</a>
+      <a href="./search.html">站内搜索</a>
+    </div>
+    <div>
+      <h3>站点说明</h3>
+      <p>页面为纯静态结构，详情页、分类页与搜索页均可直接访问。</p>
+    </div>
+  </div>
+</footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement('script');
+  hm.src = 'https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script src="./assets/site.js"></script>
+</body>
+</html>
